@@ -8,7 +8,14 @@
   max-width: 1170px;
   height: 100vh;
   margin: auto;
-  background-color: lightgrey;
+  border: 1px solid black
+}
+                        /* header */
+.header-container{
+  height: 800px;
+  background-image: url(images/hero-image.png);
+  background-size: cover;
+  background-position: center;
 }
 
 header{
@@ -20,23 +27,44 @@ header{
 .header-left{
   width: 30%;
   height: 100%;
-  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  /* background-color: blueviolet; */
 }
 
 .header-right{
   width: 70%;
   height: 100%;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
 }
 
+.menu{
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu li{
+  margin: 0 20px;
+  font-size: 17px;
+}
+                            /* jumbo */
 .main-jumbo{
   width: 100%;
   height: 700px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .main-jumbo-call{
   width: 50%;
   height: 100%;
-  background-color: crimson;
+  /* background-color: crimson; */
+}
+                              /* section-new-template */
+.section-new-template{
+  width: 100%;
+  height: 1300px;
+  /* background-color: coral; */
 }
