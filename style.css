@@ -58,7 +58,8 @@ header{
 }
 
 .orange-button{
-  padding: 15px;
+  font-size: 15px;
+  padding: 10px;
   border-radius: 25px;
   border: 0;
   background-color: #ffa837;
@@ -95,7 +96,8 @@ header{
 }
 
 #blue-button{
-  padding: 15px;
+  font-size: 15px;
+  padding: 10px;
   border-radius: 25px;
   margin-left: 10px;
   border: 0;
@@ -238,19 +240,22 @@ header{
 }
 
 .our-work-top,
-.our-plans-top{
+.our-plans-top,
+.our-news-top{
   text-align: center;
   padding: 70px 100px;
 }
 
 .our-work-top h2,
-.our-plans-top h2{
+.our-plans-top h2,
+.our-news-top h2{
   margin-bottom: 20px;
   font-size: 35px;
 }
 
 .our-work-top p,
-.our-plans-top p{
+.our-plans-top p,
+.our-news-top p{
   padding: 0px 200px;
   font-size: 20px;
 }
@@ -348,9 +353,48 @@ header{
 }
 
 .trans-button{
-  padding: 15px;
+  padding: 10px;
   border-radius: 25px;
   border: 0;
   background-color: white;
   border: 2px solid black;
+  font-size: 15px;
+}
+                /* sectiion our news */
+.section-our-news{
+  background-color: #F7F8F9;
+  padding-bottom: 100px;
+}
+
+.our-news-bot {
+  display: flex;
+  justify-content: space-around;
+}
+
+.our-news-card{
+  height: 400px;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+}
+
+.our-news-card-img img{
+  width: 100%;
+}
+
+.our-news-card h3{
+  margin: 10px 0;
+}
+
+.our-news-card small{
+  display: block;
+  margin: 10px 0;
+}
+
+.our-news-card p{
+  line-height: 2;
+}
+
+.our-news-footer{
+  padding-top: 50px;
+  text-align: center;
 }
