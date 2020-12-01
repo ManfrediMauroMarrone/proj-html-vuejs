@@ -237,17 +237,20 @@ header{
   font-size: 12px;
 }
 
-.our-work-top{
+.our-work-top,
+.our-plans-top{
   text-align: center;
   padding: 70px 100px;
 }
 
-.our-work-top h2{
+.our-work-top h2,
+.our-plans-top h2{
   margin-bottom: 20px;
   font-size: 35px;
 }
 
-.our-work-top p{
+.our-work-top p,
+.our-plans-top p{
   padding: 0px 200px;
   font-size: 20px;
 }
@@ -275,3 +278,47 @@ header{
   text-align: center;
   padding: 50px 0;
 }
+                    /* section our plans */
+.our-plans-bot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-plans-card{
+  height: 400px;
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.cost{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+}
+
+.currency{
+  display: inline-block;
+  font-size: 14px;
+  position: absolute;
+  top: 4px;
+  left: 94px;
+}
+
+.rest{
+  display: inline-block;
+  font-size: 12px;
+  position: absolute;
+  top: 0px;
+  right: 90px;
+}
+
+.subs{
+  display: inline-block;
+  font-size: 10px;
+  position: absolute;
+  bottom: 5px;
+  right: 63px;
+  font-style: italic;
