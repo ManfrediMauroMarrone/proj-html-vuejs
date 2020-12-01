@@ -167,14 +167,13 @@ header{
 }
                     /* section services */
 .section-services{
-  height: 800px;
   color: white;
   background-color: #051745;
   background-image: url(images/pattern_background.png);
 }
 
 .section-services-top{
-  padding: 50px;
+  padding: 70px;
   text-align: center;
 }
 
@@ -188,10 +187,17 @@ header{
   font-size: 20px;
 }
 
+.section-services-bot::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .services-card{
   height: 400px;
   width: calc(100% / 4 - 20px);
   margin: 10px;
+  margin-bottom: 150px;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -229,4 +235,43 @@ header{
 
 .card-link i{
   font-size: 12px;
+}
+
+.our-work-top{
+  text-align: center;
+  padding: 70px 100px;
+}
+
+.our-work-top h2{
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.our-work-top p{
+  padding: 0px 200px;
+  font-size: 20px;
+}
+
+.our-work-mid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.our-work-img{
+  height: 280px;
+  width: 360px;
+  margin-top: 45px;
+  background-color: aquamarine;
+}
+
+.our-work-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.our-work-bot{
+  text-align: center;
+  padding: 50px 0;
 }
