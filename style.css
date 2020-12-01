@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .wrapper{
   max-width: 1200px;
-  height: 100%;
+  height: 100vh;
   margin: auto;
   border: 1px solid black
 }
@@ -101,11 +105,9 @@ header{
                               /* section-new-template */
 .section-new-template{
   width: 100%;
-  height: 1200px;
-  /* background-image: url(images/agency-seo-desk-front-1200x570.jpg); */
-  background-size: cover;
-
-  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  background-color: #F7F8F9;
 }
 
 .section-new-template-top{
@@ -137,10 +139,35 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: white;
+}
+
+.template-card h3{
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .template-card i{
+  margin-bottom: 30px;
   font-size: 35px;
   color: #ffa837
+}
+
+.template-card p{
+  line-height: 25px
+}
+
+.section-new-template-img{
+  width: 100%;
+}
+
+.section-new-template-img img{
+  width: 100%;
+  height: 100%;
+}
+                    /* section services */
+.section-services{
+  height: 800px;
+  background-color: #051745;
+  background-image: url();
 }
