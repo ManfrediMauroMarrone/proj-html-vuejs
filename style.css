@@ -12,7 +12,7 @@ body{
   max-width: 1200px;
   height: 100%;
   margin: auto;
-  border: 1px solid black
+  /* border: 1px solid black */
 }
                         /* header */
 .header-container{
@@ -265,7 +265,7 @@ header{
   height: 280px;
   width: 360px;
   margin-top: 45px;
-  background-color: aquamarine;
+  background-color: white;
 }
 
 .our-work-img img{
@@ -279,26 +279,48 @@ header{
   padding: 50px 0;
 }
                     /* section our plans */
+
+.section-our-plans{
+  background-image: url(images/background1.jpg);
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.our-plans-top{
+  color: white;
+}
+
 .our-plans-bot{
   display: flex;
   justify-content: space-between;
 }
 
 .our-plans-card{
-  height: 400px;
   width: 280px;
   padding: 20px;
   text-align: center;
-  background-color: lightblue;
+  background-color: white;
+}
+.our-plans-card h3{
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.our-plans-card p{
+  margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .cost{
-  font-size: 30px;
   font-weight: 600;
   text-align: center;
   position: relative;
 }
 
+.cost span:nth-child(2){
+  font-size: 30px;
+  color: #607AFE;
+}
 .currency{
   display: inline-block;
   font-size: 14px;
@@ -313,6 +335,7 @@ header{
   position: absolute;
   top: 0px;
   right: 90px;
+  color: #607AFE;
 }
 
 .subs{
@@ -322,3 +345,12 @@ header{
   bottom: 5px;
   right: 63px;
   font-style: italic;
+}
+
+.trans-button{
+  padding: 15px;
+  border-radius: 25px;
+  border: 0;
+  background-color: white;
+  border: 2px solid black;
+}
