@@ -21,7 +21,8 @@
             <div class="header-right">
               <ul class="menu">
                 <li v-for="option in menuOptions">
-                  <a id="option" :href="option.url" v-if="option.type == 'LINK'">{{option.label}}</a>
+                  <a href="#"></a>
+                  <a id="option" href="#" v-if="option.type == 'LINK'">{{option.label}}</a>
                   <button  class="orange-button" type="button" name="button" v-else-if="option.type == 'BUTTON'">Get In Touch Now</button>
                 </li>
               </ul>
@@ -325,7 +326,7 @@
         <div class="footer-mid">
           <ul>
             <li v-for="option in menuOptions">
-              <a :href="option.url">{{option.label}}</a>
+              <a href="#">{{option.label}}</a>
             </li>
           </ul>
         </div>
