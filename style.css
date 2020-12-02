@@ -248,14 +248,16 @@ header{
 
 .our-work-top h2,
 .our-plans-top h2,
-.our-news-top h2{
+.our-news-top h2,
+.feedback-top h2{
   margin-bottom: 20px;
   font-size: 35px;
 }
 
 .our-work-top p,
 .our-plans-top p,
-.our-news-top p{
+.our-news-top p,
+.feedback-top p{
   padding: 0px 200px;
   font-size: 20px;
 }
@@ -397,4 +399,48 @@ header{
 .our-news-footer{
   padding-top: 50px;
   text-align: center;
+}
+                    /* section feedback */
+.feedback-top{
+  padding-top: 120px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.testimonials{
+  width: 150px;
+  height: 150px;
+  margin: 30px 0;
+}
+
+.testimonials img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.feedback-top p:first-of-type{
+  margin-bottom: 30px;
+}
+
+#dots{
+  margin-top: 30px;
+}
+
+.feedback-bot{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+
+.feedback-logo{
+  width: 150px;
+  height: 150px;
+}
+
+.feedback-logo img{
+  height: 100%;
 }
