@@ -42,7 +42,6 @@ header{
   /* background-color: cadetblue; */
 }
 
-
 .menu{
   height: 100%;
   color: white;
@@ -55,6 +54,15 @@ header{
 .menu li{
   margin: 0 20px;
   font-size: 16px;
+}
+
+#option{
+  text-decoration: none;
+  color: white;
+}
+
+#option:hover{
+  color: #ffa837;
 }
 
 .orange-button{
