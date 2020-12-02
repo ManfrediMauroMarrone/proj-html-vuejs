@@ -20,7 +20,7 @@
             </div>
             <div class="header-right">
               <ul class="menu">
-                <li v-for="option in menuOptions" :key="'menu-item-' + option.label.replace(/\s/ig, '-')">
+                <li v-for="option in menuOptions">
                   <a id="option" :href="option.url" v-if="option.type == 'LINK'">{{option.label}}</a>
                   <button  class="orange-button" type="button" name="button" v-else-if="option.type == 'BUTTON'">Get In Touch Now</button>
                 </li>
@@ -324,30 +324,9 @@
         </div>
         <div class="footer-mid">
           <ul>
-            <li v-for="option in menuOptions" :key="'menu-item-' + option.label.replace(/\s/ig, '-')">
+            <li v-for="option in menuOptions">
               <a :href="option.url">{{option.label}}</a>
             </li>
-            <!-- <li>
-              <a class="home" href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Who We Are</a>
-            </li>
-            <li>
-              <a href="#">What We Do</a>
-            </li>
-            <li>
-              <a href="#">Where We Work</a>
-            </li>
-            <li>
-              <a href="#">Careers</a>
-            </li>
-            <li>
-              <a href="#">News</a>
-            </li>
-            <li>
-              <a href="#">Get In Touch Now</a>
-            </li> -->
           </ul>
         </div>
         <div class="footer-bot">
