@@ -244,29 +244,13 @@
 
           </div>
           <div class="our-news-bot">
-            <div class="our-news-card">
+            <div v-for="item in news" class="our-news-card">
               <div class="our-news-card-img">
-                <img src="images/related-service-2-700x441.jpg" alt="">
+                <img :src="item.background" alt="">
               </div>
-              <h3>Why You Need A SEO Agency Now</h3>
-              <small>November 1st, 2017</small>
-              <p>ALorem ipsum dolor sit amet, consectetur adipiscing elit. In et scelerisque sem. Nunc molestie neque augue, at gravida mi blandit</p>
-            </div>
-            <div class="our-news-card">
-              <div class="our-news-card-img">
-                <img src="images/related-service-4-700x441.jpg" alt="">
-              </div>
-              <h3>SEO Tips For Your Startup</h3>
-              <small>November 1st, 2017</small>
-              <p>ALorem ipsum dolor sit amet, consectetur adipiscing elit. In et scelerisque sem. Nunc molestie neque augue, at gravida mi blandit</p>
-            </div>
-            <div class="our-news-card">
-              <div class="our-news-card-img">
-                <img src="images/blog-post-6-700x441.jpg" alt="">
-              </div>
-              <h3>Image Optimization For Your Site</h3>
-              <small>November 1st, 2017</small>
-              <p>ALorem ipsum dolor sit amet, consectetur adipiscing elit. In et scelerisque sem. Nunc molestie neque augue, at gravida mi blandit</p>
+              <h3>{{item.label}}</h3>
+              <small>{{item.date}}</small>
+              <p>{{item.info}}</p>
             </div>
 
           </div>
