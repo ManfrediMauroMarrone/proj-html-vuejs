@@ -32,6 +32,33 @@ var app = new Vue({
       }
     ],
 
+    ourWork: [
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-3-1-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-2-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-1-1-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-4-1-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-5-1-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-6-1-600x450.jpg'
+      },
+    ],
+
     newTemplate: [
       {
         icon: 'fas fa-road',
@@ -48,6 +75,37 @@ var app = new Vue({
         label: 'Get Results',
         info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }
+    ],
+
+    services: [
+      {
+        icon: 'fab fa-google',
+        label: 'Google SEO',
+        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        link: 'Read More',
+        arrow: 'fas fa-chevron-right'
+      },
+      {
+        icon: 'fas fa-cog',
+        label: 'Brand Strategy',
+        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        link: 'Read More',
+        arrow: 'fas fa-chevron-right'
+      },
+      {
+        icon: 'fas fa-building',
+        label: 'Local SEO',
+        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        link: 'Read More',
+        arrow: 'fas fa-chevron-right'
+      },
+      {
+        icon: 'far fa-chart-bar',
+        label: 'SEO Analysis',
+        info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        link: 'Read More',
+        arrow: 'fas fa-chevron-right'
+      },
     ],
 
     news:[
