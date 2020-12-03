@@ -174,17 +174,8 @@
             </div>
           </div>
           <div class="feedback-bot">
-            <div class="feedback-logo">
-              <img src="images/clients_partner_1-200x202.png" alt="">
-            </div>
-            <div class="feedback-logo">
-              <img src="images/clients_partner_2-200x202.png" alt="">
-            </div>
-            <div class="feedback-logo">
-              <img src="images/clients_partner_3-200x202.png" alt="">
-            </div>
-            <div class="feedback-logo">
-              <img src="images/clients_partner_4-200x202.png" alt="">
+            <div v-for="item in feedback" class="feedback-logo">
+              <img :src="item.source" alt="">
             </div>
           </div>
         </div>

@@ -193,6 +193,6 @@ var app = new Vue({
       {
         source: 'images/clients_partner_4-200x202.png'
       },
-    ]
+    ],
   },
 });
