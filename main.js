@@ -32,33 +32,6 @@ var app = new Vue({
       }
     ],
 
-    ourWork: [
-      {
-        icon: 'fas fa-link',
-        source: 'images/case-study-gallery-3-1-600x450.jpg'
-      },
-      {
-        icon: 'fas fa-link',
-        source: 'images/case-study-gallery-2-600x450.jpg'
-      },
-      {
-        icon: 'fas fa-link',
-        source: 'images/case-study-gallery-1-1-600x450.jpg'
-      },
-      {
-        icon: 'fas fa-link',
-        source: 'images/case-study-gallery-4-1-600x450.jpg'
-      },
-      {
-        icon: 'fas fa-link',
-        source: 'images/case-study-gallery-5-1-600x450.jpg'
-      },
-      {
-        icon: 'fas fa-link',
-        source: 'images/case-study-gallery-6-1-600x450.jpg'
-      },
-    ],
-
     newTemplate: [
       {
         icon: 'fas fa-road',
@@ -108,6 +81,84 @@ var app = new Vue({
       },
     ],
 
+    ourWork: [
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-3-1-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-2-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-1-1-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-4-1-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-5-1-600x450.jpg'
+      },
+      {
+        icon: 'fas fa-link',
+        source: 'images/case-study-gallery-6-1-600x450.jpg'
+      },
+    ],
+
+    ourPlans: [
+      {
+        label: 'Standard',
+        currency: '$',
+        price: '19',
+        rest: '99',
+        subs: 'monthly',
+        projects: '5 projects',
+        storage: '5 GB Storage',
+        users: 'Unlimited Users',
+        button: 'Start Today',
+        buttonType: 'trans-button'
+      },
+      {
+        label: 'Premium',
+        currency: '$',
+        price: '29',
+        rest: '99',
+        subs: 'monthly',
+        projects: '10 projects',
+        storage: '15 GB Storage',
+        users: 'Unlimited Users',
+        button: 'Start Today',
+        buttonType: 'trans-button'
+      },
+      {
+        label: 'Professional',
+        currency: '$',
+        price: '39',
+        rest: '99',
+        subs: 'monthly',
+        projects: '15 projects',
+        storage: '30 GB Storage',
+        users: 'Unlimited Users',
+        button: 'Start Today',
+        buttonType: 'orange-button'
+      },
+      {
+        label: 'Extreme',
+        currency: '$',
+        price: '59',
+        rest: '99',
+        subs: 'monthly',
+        projects: 'Unlimited projects',
+        storage: 'Unlimited Storage',
+        users: 'Unlimited Users',
+        button: 'Start Today',
+        buttonType: 'trans-button'
+      },
+    ],
+
     news:[
       {
         label: 'Why You Need A SEO Agency Now',
@@ -127,6 +178,21 @@ var app = new Vue({
         background: 'images/blog-post-6-700x441.jpg',
         info: 'ALorem ipsum dolor sit amet, consectetur adipiscing elit. In et scelerisque sem. Nunc molestie neque augue, at gravida mi blandit'
       }
+    ],
+
+    feedback:[
+      {
+        source: 'images/clients_partner_1-200x202.png'
+      },
+      {
+        source: 'images/clients_partner_2-200x202.png'
+      },
+      {
+        source: 'images/clients_partner_3-200x202.png'
+      },
+      {
+        source: 'images/clients_partner_4-200x202.png'
+      },
     ]
-    },
+  },
 });
